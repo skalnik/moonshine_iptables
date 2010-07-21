@@ -4,7 +4,7 @@ class IptablesManifest < Moonshine::Manifest
   plugin :iptables
 end
 
-describe Iptables do
+describe Moonshine::Iptables do
 
   describe 'the generated puppet resources' do
     before(:each) do
